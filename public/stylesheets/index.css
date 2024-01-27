@@ -1,0 +1,67 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#idheader{
+    padding: 2%;
+    display: grid;
+    grid-template-areas:"area1  area1 area1" 
+                        "area1  area1 area1"
+                         "area2 area3 area3";
+
+    ;
+}
+#idpf{
+    grid-area: area2;
+    justify-content: space-between;
+}
+#idparrafo{
+    grid-area: area2;
+}
+#idf{
+    grid-area: area3;
+}
+
+#idh1{
+    margin-top: 20%;
+    grid-area: area1;
+}
+#idnav{
+    display: flex;
+    flex-direction: column;
+    
+}
+#idnavitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fotos{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-around;
+}
+#webdevelopment h2 {
+    padding-left: 2%;
+}
+
