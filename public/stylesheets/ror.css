@@ -8,6 +8,12 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 2%;
 }
+hr{
+    border-color: blue;
+    border-width: 0.1ch;
+    orientation: vertical;
+}
+
 

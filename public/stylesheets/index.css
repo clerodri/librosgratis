@@ -55,13 +55,15 @@ header {
     justify-content: space-between;
 }
 
+
+#webdevelopment h2 {
+
+    padding-left: 2%;
+}
 #fotos{
     display: flex;
     flex-direction: row;
   
     justify-content: space-around;
-}
-#webdevelopment h2 {
-    padding-left: 2%;
 }
 
